@@ -48,14 +48,22 @@
 #     total_sum += k ** 2       
 # print(total_sum)              
 
-#For2
+"""shu misolda ozroq xato bo'lishi mumkin shuning uchun bir qarash kerak"""
+#For12
+# n = int(input("n = "))
+# total = 1
+# for i in range(1, n+1):
+#     total *= (1 + (i * 0.1))
+# print(round(total, 3))
+
+
+#For13
 n = int(input("n = "))
-total = 1
+term = 0
 for i in range(1, n+1):
-    total *= (1 + (i * 0.1))
-print(round(total, 3))
+    sign = (-1) ** (i + 1)  
+    term += sign * (1.0 + i * 0.1)
+print(round(term, 2))
 
-
-    
 
 
