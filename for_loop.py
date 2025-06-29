@@ -5,10 +5,10 @@
 # print(k*n)
 
 #For2
-# a = int(input("a = "))
+# n = int(input("n = "))
 # b = int(input("b = "))
 # count = 0
-# for num in range(a, b+1):
+# for num in range(n, b+1):
 #     print(num)
 #     count += 1
 # print(f"jami ekranga chiqarilgan raqamlar soni {count}")
@@ -19,18 +19,18 @@
 #     print(f"{konfet_price*i:,}".replace(",", " "))
 
 #For7
-# a = int(input("a = "))
+# n = int(input("n = "))
 # b = int(input("b = "))
 # count = 0
-# for num in range(a, b+1):
+# for num in range(n, b+1):
 #     count += num
-# print(f"{a} dan {b} gacha bo'lgan butun solar yig'indisi {count} ga teng")
+# print(f"{n} dan {b} gacha bo'lgan butun solar yig'indisi {count} ga teng")
 
 #For9
-# a = int(input("a = "))
+# n = int(input("n = "))
 # b = int(input("b = "))
 # sum_of_squares = 0
-# for i in range(a, b+1):
+# for i in range(n, b+1):
 #     sum_of_squares += i**2
 # print(sum_of_squares)
 
@@ -48,8 +48,14 @@
 #     total_sum += k ** 2       
 # print(total_sum)              
 
-#For
-a = int(input("a = "))
+#For2
+n = int(input("n = "))
+total = 1
+for i in range(1, n+1):
+    total *= (1 + (i * 0.1))
+print(round(total, 3))
 
+
+    
 
 
