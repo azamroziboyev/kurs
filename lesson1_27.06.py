@@ -131,3 +131,12 @@
 #     print("shokolad va konfetning narxi bir xil")
 
 #begin35
+''' shu misol bor lekin'''
+
+#begin38
+# a = int(input("A = "))
+# b = int(input("B = "))
+# x = -b/a
+# print(f"tenglamaning ildizi {x}")
+
+#begin39 va begin40  ham shu tartibda bajariladi.
