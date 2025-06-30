@@ -48,10 +48,16 @@
 #     total_sum += k ** 2       
 # print(total_sum)              
 
-#For
-n = int(input("n = "))
-total = 0
-for i in range(1, n+1):
-    sign = (-1)**(i + 1)
-    total += sign * (1 + i * 0.1)
-print(f' jami yigindi {total} ga teng')
+#For12
+# n = int(input("n = "))
+# total = 0
+# for i in range(1, n+1):
+#     sign = (-1)**(i + 1)
+#     total += sign * (1 + i * 0.1)
+# print(f' jami yigindi {round(total, 2)} ga teng')
+
+'''bu masal chala qoldi'''
+#For15
+# n = int(input("n = "))
+# a = int(input("a = "))
+# for i in range(1, n)
