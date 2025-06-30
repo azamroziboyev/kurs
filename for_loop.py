@@ -49,8 +49,9 @@
 # print(total_sum)              
 
 #For
-a = int(input("a = "))
-
-
-
-
+n = int(input("n = "))
+total = 0
+for i in range(1, n+1):
+    sign = (-1)**(i + 1)
+    total += sign * (1 + i * 0.1)
+print(f' jami yigindi {total} ga teng')
