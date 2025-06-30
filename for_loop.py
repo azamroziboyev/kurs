@@ -57,7 +57,20 @@
 # print(f' jami yigindi {round(total, 2)} ga teng')
 
 '''bu masal chala qoldi'''
-#For15
-# n = int(input("n = "))
-# a = int(input("a = "))
-# for i in range(1, n)
+#For14
+n = int(input("n = "))
+s = 0
+for i in range(1, 2*n,2):
+    s = s +i
+
+print(s)
+
+
+
+
+
+
+
+
+
+
