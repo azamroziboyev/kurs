@@ -56,14 +56,17 @@
 #     total += sign * (1 + i * 0.1)
 # print(f' jami yigindi {round(total, 2)} ga teng')
 
-'''bu masal chala qoldi'''
-#For14
-n = int(input("n = "))
-s = 0
-for i in range(1, 2*n,2):
-    s = s +i
 
-print(s)
+#For14
+# n = int(input("n = "))
+# s = 0
+# for i in range(1, 2*n,2):
+#     s = s +i
+
+# print(s)
+
+
+#For15
 
 
 
