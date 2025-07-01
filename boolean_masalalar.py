@@ -32,4 +32,10 @@
 # a = int(input("a = "))
 # print((a%2==0) and (9 < a < 100))
 
-#boolean
+#boolean18
+# a = int(input("a = "))
+# b = int(input("b = "))
+# c = int(input("c = "))
+# print((a==b==c) or (a==b!=c or a!=b==c or a==c!=b))
+
+#boolea
