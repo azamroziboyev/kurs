@@ -98,4 +98,9 @@
 # b = int(input("y1 = "))
 # print((x%2==0 and y%2!=0) or (x%2!=0 and y%2==0) and ((a%2==0 and b%2!=0) or (a%2!=0 and b%2==0)))
 
-#boolean
+#boolean36
+x = int(input("x = "))
+y = int( input("y = "))
+a = int(input("x1 = "))
+b = int(input("y1 = "))
+print(x==a and 0<b<9 or)
