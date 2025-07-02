@@ -38,4 +38,21 @@
 # c = int(input("c = "))
 # print((a==b==c) or (a==b!=c or a!=b==c or a==c!=b))
 
-#boolea
+'''bu misol'''
+#boolean19
+# a = int(input("a = "))
+# b = int(input("b = "))
+# c = int(input("c = "))
+# a_sq = (a**2)**0.5
+# b_sq = (b**2)**0.5
+# c_sq = (c**2)**0.5
+# pritn(())
+
+#boolean20
+# a = int(input("a = "))
+# yuz = a // 100
+# on = (a // 10) % 10 
+# bir = a % 100
+# print(yuz!=on!=bir)
+
+#boolean21
