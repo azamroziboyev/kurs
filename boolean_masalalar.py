@@ -56,3 +56,46 @@
 # print(yuz!=on!=bir)
 
 #boolean21
+# a = int(input("a = "))
+# yuz = a // 100
+# on = (a // 10) % 10 
+# bir = a % 100
+# print(yuz<on<bir)
+
+#boolean23
+# a = int(input("a = "))
+# yuz = a // 100
+# on = (a // 10) % 10 
+# bir = a % 10
+# print((yuz==bir!=on) or (yuz==on==bir))
+
+#boolean24
+# a = int(input("a = "))
+# b = int(input("b = "))
+# c = int(input("c = "))
+# d = b**2 - 4 * a * c 
+# print(d>=0)
+
+#boolean25
+# x = int(input( "x = "))
+# y = int(input( "y = "))
+# print(x>0 and y>0)
+
+'''bu masala'''
+#boolean29
+# a = int(input("a = "))
+# b = int(input("b = "))
+# c = int(input("c = "))
+# ab = a - b
+# ac = a - c
+# bc = b - c
+# print(ab==ac==bc)
+
+#boolean35
+# x = int(input("x = "))
+# y = int( input("y = "))
+# a = int(input("x1 = "))
+# b = int(input("y1 = "))
+# print((x%2==0 and y%2!=0) or (x%2!=0 and y%2==0) and ((a%2==0 and b%2!=0) or (a%2!=0 and b%2==0)))
+
+#boolean
