@@ -149,9 +149,58 @@
 #     elif max_number == b and min_number == c:
 #         print(a,max_number)
 #     elif max_number == c and min_number == b:
-#         print(a,max_number)    
+#         print(a,max_number)  
+
+#if16
+# a = int(input(" a = "))
+# b = int(input(" b = "))
+# c = int(input(" c = ")) 
+# if a<b<c:
+#     a,b,c= 2*a,2*b,2*c
+# else:
+#     a,b,c=(-1)*a,(-1)*b,(-1)*c 
+# print(a,b,c)
+
+#if17
+# a = int(input(" a = "))
+# b = int(input(" b = "))
+# c = int(input(" c = ")) 
+# if a<b<c or a>b>c:
+#     a,b,c= 2*a,2*b,2*c
+# else:
+#     a,b,c=(-1)*a,(-1)*b,(-1)*c 
+# print(a,b,c)
+
+#if18
+# a = int(input(" a = "))
+# b = int(input(" b = "))
+# c = int(input(" c = ")) 
+# third = a
+
+# if b==c and a!=b:
+#     print(f"qolgan bittasining tartib raqami bir son:{a}")
+# elif a==c and b!=a:
+#     print(f"qolgan bittasining tartib raqami ikki son:{b}")
+# elif a==b and c!=a:
+#     print(f"qolgan bittasining tartib raqami uch son:{c}")
+# else:
+#     print("berilgan sonlarning uchtasi ham bir biriga teng yoki ikkitasi o'zaro teng emas")
+
+#if20
+# a = int(input(" a = "))
+# b = int(input(" b = "))
+# c = int(input(" c = ")) 
+# distance_ab = int(((a - b)**2)**0.5)
+# distance_ac = int(((a - c)**2)**0.5)
+# if distance_ab > distance_ac:
+#     print("A nuqtaga eng yaqin nuqta C", f"orasidagi masofa esa {distance_ac}")
+# if distance_ac > distance_ab:
+#     print("A nuqtaga eng yaqin nuqta B", f"orasidagi masofa esa {distance_ab}" )
+
+#if2
 
 
+     
 
 
 
