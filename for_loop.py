@@ -62,11 +62,37 @@
 # s = 0
 # for i in range(1, 2*n,2):
 #     s = s +i
-
 # print(s)
 
 
 #For15
+# n = int(input("n = "))
+# a = float(input("a = "))
+# power = 1
+# if n>0:
+#     for i in range(1, n+1):
+#         power *= a
+# else:
+#     power = 'please try again later'
+# print(power)
+
+#For16
+# a = float(input("a = "))
+# n = int(input("n = "))
+
+# if n>0:
+#     for i in range(1, n+1):
+#         print(a ** i)
+# else:
+#     power = 'please try again later'
+#     print(power)
+
+#For17
+
+
+
+
+
 
 
 
