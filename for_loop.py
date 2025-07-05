@@ -149,13 +149,20 @@
 # print("Yig'indi:", summa)
 
 #For23
-import math
-x = float(input("x = "))
-n = int(input("n = "))
-summa = 1
-fact = 1
-for i in range(1, 2n + 2):
-    fact *= i       
-    summa += ( ((-1)**i)(x**(2*n+1)) / fact)   
-print("Yig'indi:", summa)
-print(math.sin(x))
+# x = float(input("x = "))
+# n = int(input("n = "))
+# summa = 0
+# for i in range(n + 1):
+#     power = 2 * i + 1
+#     fact = 1
+#     for j in range(1, power + 1):
+#         fact *= j
+#     if i % 2 == 0:
+#         term = (x ** power) / fact
+#     else:
+#         term = - (x ** power) / fact
+#     summa += term
+# print("Yig'indi:", summa)
+
+
+#For24
