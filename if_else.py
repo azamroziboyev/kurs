@@ -268,7 +268,21 @@
 #     print("son nolga teng")
 
 #if30
+# a = int(input("a = "))
+# if 99<a<1000 and a%2==0:
+#     print("uch xonali juft son")
+# elif 99<a<1000 and a%2!=0:
+#     print("uch xonali toq son")
+# elif 9<a<100 and a%2==0:
+#     print("ikki xonali juft son")
+# elif 9<a<100 and a%2!=0:
+#     print("ikki xonali toq son")
+# elif 0<a<10 and a%2==0:
+#     print("bir xonali juft son")
+# elif 0<a<10 and a%2!=0:
+#     print("bir xonali toq son")
 
+    
 
      
 
