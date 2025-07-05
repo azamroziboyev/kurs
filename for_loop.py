@@ -87,19 +87,53 @@
 #     power = 'please try again later'
 #     print(power)
 
+
 #For17
+# a = float(input("a = "))
+# n = int(input("n = "))
+# sum = 0
+# if n>0:
+#     for i in range(1, n+1):
+#         power = a ** i
+#         sum += power
+#         print(power)
+# else:
+#     power = 'please try again later'
+#     print(power)
+# print(f"Jami darajalar yig;indisi: {int(sum)} ga teng")
 
+#For18
+# a = float(input("a = "))
+# n = int(input("n = "))
+# sum = 1
+# for i in range(1, n+1):
+#     power = a ** i
+#     sum += power * (-1)**i
+#     print(power)
+# print(f"Jami darajalar yig;indisi: {int(sum)} ga teng")
 
+#For19
+# n = int(input("n = "))
+# times = 1
+# for i in range(1, n + 1):
+#     times  *=  i
+# print(times)
 
+#For20
+# n = int(input("n = "))
+# summa = 0
+# fact = 1
+# for i in range(1, n + 1):
+#     fact *= i       
+#     summa += fact   
+# print("Yig'indi:", summa)
 
-
-
-
-
-
-
-
-
-
-
+#For21
+# n = int(input("n = "))
+# summa = 1
+# fact = 1
+# for i in range(1, n + 1):
+#     fact *= i       
+#     summa += 1 / fact   
+# print("Yig'indi:", summa)
 
