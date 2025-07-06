@@ -220,3 +220,20 @@
 # else:
 #     print("n butun son emas")
 
+
+#For30
+# import math
+# a = float(input("A = "))
+# b = float(input("B = "))
+# n = int(input("n = "))
+
+# if not n <= 0:
+#     length = b - a
+#     segment_size = length / n
+#     for i in range(n + 1):
+#         point = a + i * segment_size
+#         f = 1 - math.sin(point)
+#         print(point)
+#         print(f"f(x) = 1 - sin(x) funksiya qiyamti: {f}")
+# else:
+#     print("n butun son emas")
