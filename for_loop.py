@@ -237,3 +237,26 @@
 #         print(f"f(x) = 1 - sin(x) funksiya qiyamti: {f}")
 # else:
 #     print("n butun son emas")
+
+"""bu masala"""
+#For31
+# n = int(input("n = "))
+# for i in range(1, n+1):
+#     print(f"ketma-ketlikning {i}-hadi {2+1/}")
+
+
+
+#For36
+# n = int(input("n = "))
+# k = int(input("k = "))
+# sum = 0
+# for i in range(1,n+1):
+#     hadi = 1
+#     for _ in range(k):
+#         hadi  *= i
+        
+#     sum += hadi
+# print(sum)
+
+
+
