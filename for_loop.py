@@ -166,3 +166,57 @@
 
 
 #For24
+# x = float(input("x = "))
+# n = int(input("n = "))
+# summa = 0
+# for i in range(n + 1):
+#     power = 2 * i 
+#     fact = 1
+#     for j in range(1, power + 1):
+#         fact *= j
+#     if i % 2 == 0:
+#         term = (x ** power) / fact
+#     else:
+#         term = - (x ** power) / fact
+#     summa += term
+# print("Yig'indi:", summa)
+
+#For25
+# x = float(input("x = "))
+# n = int(input("n = "))
+# summa = 0
+# for i in range(1, n + 1):
+#     power = i
+#     sign = (-1)**(i - 1)
+
+#     summa += sign * x ** i / i
+# print("Yig'indi:", summa)
+
+#For26
+# x = float(input("x = "))
+# n = int(input("n = "))
+# summa = 0
+# for i in range(1, n + 1):
+#     power = 2*n+1
+#     sign = (-1)**i
+
+#     summa += (sign * (x ** power)) / 2 * i + 1
+# print("Yig'indi:", summa)
+
+#For27
+#For28
+
+#For29
+# a = float(input("A = "))
+# b = float(input("B = "))
+# n = int(input("n = "))
+
+# if not n <= 0:
+#     length = b - a
+#     segment_size = length / n
+#     for i in range(n + 1):
+#         point = a + i * segment_size
+#         print(point)
+# else:
+#     print("n butun son emas")
+
