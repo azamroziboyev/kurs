@@ -260,3 +260,14 @@
 
 
 
+#For37
+n = int(input("n = "))
+total_had = 0
+for i in range(1,n+1):
+    had = i
+    for k in range(1,i+1):
+        had *= had
+        print(had)
+    total_had +=had  
+print(total_had)  
+
