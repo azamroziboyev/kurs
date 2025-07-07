@@ -261,13 +261,43 @@
 
 
 #For37
-n = int(input("n = "))
-total_had = 0
-for i in range(1,n+1):
-    had = i
-    for k in range(1,i+1):
-        had *= had
-        print(had)
-    total_had +=had  
-print(total_had)  
+# n = int(input("n = "))
+# s = 0
+# # for i in range(1,n+1):
+# #     had = i
+# #     for k in range(1,i+1):
+# #         had *= had
+# #         print(had)
+# #     total_had +=had  
+# # print(total_had)  
+
+# for i in range(1,n+1):
+#     s = i**i + s
+# print(s)
+
+#For38
+"""bu masalani ko'rish kerak"""
+# n = int(input("n = "))
+# sum = 0 
+# for i in range(0,n+1):
+#     if i == 0:
+#         sum += 1
+#     else:
+#         sum += i**(n-i)
+
+#For39
+# a = int(input("a = "))
+# b = int(input("b = "))
+# for i in range(a+1,b):
+#     num = str(i)
+#     print(num*i)
+
+"""bu masala"""
+#For40
+# a = int(input("a = "))
+# b = int(input("b = "))
+# for i in range(a+1,b):
+#     num = i
+#     for marta in range(a+1,b):
+#         print(num)
 
