@@ -298,6 +298,6 @@
 # b = int(input("b = "))
 # for i in range(a+1,b):
 #     num = i
-#     for marta in range(a+1,b):
+#     for marta in range(i+1):
 #         print(num)
 
