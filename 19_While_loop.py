@@ -22,4 +22,30 @@
 # print(f"A kesmada B kesmani {count} marta joylashtirish mumkin")
 
 #while3
+# n = int(input("n = "))
+# k = int(input("k = "))
+# sum = 0
+# count = 0
+# while (sum + k) <= n:
+#     sum += k
+#     count += 1
+    
+# print(f"N sonini K soniga bo'lgandagi qoldiq {n - sum}\nbutun qismi esa {count} ga teng")
+
+#while4
+# n = int(input("n = "))
+# sum = 0
+# count = 0
+# while sum < n:
+#     sum += 3
+#     count += 1
+# if sum==n:
+#     print("3-ning darajasi")
+# else:
+#     print("3-ning darajasi emas")
+
+
+#while5
+
+
 
