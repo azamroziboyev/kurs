@@ -46,6 +46,28 @@
 
 
 #while5
+# n = int(input("n = "))
+# sum = 1
+# count = 0
+# while sum < n:
+#     sum *= 2
+#     count += 1
+# print(count)
+
+
+#while6
+# n = int(input("n = "))
+# sum = 1
+# count = 0
+# while n > 0:
+#     sum = sum*n
+#     n = n-2
+# print(sum)
+
+#while7
+n = int(input("n = "))
+
+    
 
 
 
