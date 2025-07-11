@@ -64,8 +64,19 @@
 #     n = n-2
 # print(sum)
 
-#while7
+#while8
 n = int(input("n = "))
+sum = 0 
+while True:
+    sum += 1
+    if sum ** 2 < n:
+        continue 
+    else:
+        sum = sum - 1
+        break
+print(sum)
+
+
 
     
 
