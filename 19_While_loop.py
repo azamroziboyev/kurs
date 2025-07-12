@@ -82,6 +82,15 @@
 #     a = sum **2
 # print(sum)
 
+#while12
+n = int(input("n = "))
+sum = 0
+k = 0
+while sum <= n:
+    k += 1
+    sum = sum + k
+print(k)
+
 
     
 
