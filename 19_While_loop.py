@@ -65,7 +65,23 @@
 # print(sum)
 
 #while7
-n = int(input("n = "))
+# n = int(input("n = "))
+# sum = 1
+# a = 1
+# while a < n:
+#     sum = sum + 1
+#     a = sum ** 2
+# print(sum)
+
+#while8 
+# n = int(input(" n = "))
+# sum = 1
+# a = 1
+# while  not a > n:
+#     sum = n - 1
+#     a = sum **2
+# print(sum)
+
 
     
 
