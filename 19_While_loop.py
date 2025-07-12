@@ -83,13 +83,15 @@
 # print(sum)
 
 #while12
-n = int(input("n = "))
-sum = 0
-k = 0
-while sum <= n:
-    k += 1
-    sum = sum + k
-print(k)
+# n = int(input("n = "))
+# sum = 0
+# k = 0
+# while sum <= n:
+#     if sum + k > n:
+#         break
+#     k += 1
+#     sum = sum + k
+# print(k)
 
 
     
