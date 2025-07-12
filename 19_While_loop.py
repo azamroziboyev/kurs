@@ -93,8 +93,18 @@
 #     sum = sum + k
 # print(k)
 
+#while13
+n = int(input("n = "))
+sum = 1
+k = 1
+while not sum >= n:
+    k += 1
+    sum = sum + 1/k
 
-    
+    if (sum + 1/k) > n:
+        break
+print(k)
+print(1+(1/2)+(1/3))
 
 
 
