@@ -94,17 +94,50 @@
 # print(k)
 
 #while13
-n = int(input("n = "))
-sum = 1
-k = 1
-while not sum >= n:
-    k += 1
-    sum = sum + 1/k
+# n = int(input("n = "))
+# sum = 1
+# k = 1
+# while not sum >= n:
+#     k += 1
+#     sum = sum + 1/k
+# print(k)
 
-    if (sum + 1/k) > n:
-        break
-print(k)
-print(1+(1/2)+(1/3))
+#while 15
+# s = int(input("summa: "))
+# p = int(input("foiz: "))
+# months = 0
+# target = 2*s
+# while s < target:
+#     months += 1
+#     s += s*p/100
+# print(months)
 
+#while 16
+# from datetime import datetime
+# now = datetime.now()
+# p = int(input("foiz: "))
+# distance = 10
+# days = 0
+# while distance < 200:
+#     days += 1
+#     distance += distance*p/100
+# doc = f"""
+# ====================================================
+#              Sportsmenning kundaligi
+# ====================================================
+# maqsad:200 km masofaga yugurish.
+
+# kunlik foizlar: {p}
+
+# jami masofa: {distance} 
+
+# Yugurilgan kunlar miqdori: {days}
+                      
+#                                date: {now.strftime("%d.%m.%Y")}
+#                                       {now.strftime("%H:%M:%S")}
+# ====================================================
+
+# """
+# print(doc)
 
 
