@@ -140,4 +140,7 @@
 # """
 # print(doc)
 
+#while 17
+n = int(input("n = "))
+m = int(input("m = "))
 
