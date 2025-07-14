@@ -143,4 +143,6 @@
 #while 17
 n = int(input("n = "))
 m = int(input("m = "))
+sum = 0 
+count = 0
 
