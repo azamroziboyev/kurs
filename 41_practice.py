@@ -88,16 +88,73 @@ Izoh: a va b sonlari tub sonlar va ular n dan kichik bo`ladi.
 6 = 1 + 2 + 3
 """
 # perfect_numbers = []
-# for n in range(2, 10000):
+# n = 2
+
+# while n <= 10000:
 #     dividers = []
-#     for i in range(1, n):
+#     i = 1
+#     while i < n:
 #         if n % i == 0:
 #             dividers.append(i)
+#         i += 1
 #     if sum(dividers) == n:
 #         perfect_numbers.append(n)
+#     n += 1
 
 # print("Perfect numbers up to 10000:", perfect_numbers)
 
+# """ while sikli yordamida so'zlarni yodlash dasturi"""
+# words = {}
+# i = 1
+# while i < 7:
+#     word_eng = input(f"{i}-inglizcha so`zni kiriting (yakunlash uchun “tamom” so`zini kiriting.): ")
+#     if word_eng=='tamom':
+#         break
+#     word_uz = input(f"{word_eng} so`zining o`zbekcha tarjimasini kiriting: ")
+#     words[word_eng] =  word_uz
+#     i += 1 
+# print("Diqqat, sinovni boshlaymiz...")
+# c = 0
+# correct_answers = []
+# wrong_answers = []
+# while c < len(words):
+#     keys = list(words.keys())
+
+#     answer = input(f"{keys[c]}- ")
+   
+
+#     if answer == words[keys[c]]:
+#         correct_answers.append(answer)
+#     else:
+#         wrong_answers.append(answer)
+#     c += 1
 
 
-        
+# result_page = f"""
+# ======================================
+#              Results
+# ======================================
+# to'gri javoblar soni:{len(correct_answers)}
+# to'gri javoboblar:{correct_answers}
+
+# noto'g'ri javoblar soni:{len(wrong_answers)}
+# noto'gri javoblar: {wrong_answers}
+# ======================================
+# """ 
+
+# print(result_page)
+
+
+""" Foydalanuvchidan n ning qiymatini qabul qilib olib, ushbu qonuniyatga mos keluvchi qiymatni hisoblang. Albatta while tsikli yordamida.
+"""
+# n = int(input("n = "))
+# s = 1
+# i = 1
+# while True:
+#     s += 1/(n)**n
+#     i += 1
+#     if i >= n:
+#         break
+# print(s)
+
+
