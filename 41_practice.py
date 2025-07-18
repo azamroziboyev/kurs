@@ -87,3 +87,17 @@ Izoh: a va b sonlari tub sonlar va ular n dan kichik bo`ladi.
 – o`zidan tashqari barcha bo`luvchilari yig`indisiga teng bo`lgan sonlardir. Misol uchun:
 6 = 1 + 2 + 3
 """
+# perfect_numbers = []
+# for n in range(2, 10000):
+#     dividers = []
+#     for i in range(1, n):
+#         if n % i == 0:
+#             dividers.append(i)
+#     if sum(dividers) == n:
+#         perfect_numbers.append(n)
+
+# print("Perfect numbers up to 10000:", perfect_numbers)
+
+
+
+        
