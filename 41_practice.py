@@ -50,11 +50,40 @@ float kabi har turdagi ma’lumotlar mavjud. while tsikli yordamida ro`yxatda fa
 ro`yxatni ko`rsatsin. 
 """
 
-aralash = ['me', 1, 2, 3, 3.5, 2.3, "azam"] 
-i = 0
-while i < len(aralash):
-    item = aralash[i]
-    if not isinstance(item, str):
-        aralash.remove(i)
-    i += 1
-print(aralash)
+# aralash = ['me', 1, 2, 3, 3.5, 2.3, "azam"] 
+# i = 0
+# while i < len(aralash):
+#     item = aralash[i]
+#     if not isinstance(item, str):
+#         aralash.pop(i)
+#     else:
+#         i += 1
+# print(aralash)
+
+
+
+
+"""1 dan n gacha bo`lgan sonlar orasida a ga ham, b ga ham bo`linmaydigan sonlar nechtaligini topuvchi dastur tuzing.
+Bunda n va a va b lar foydalanuvchi tomonidan kiritiladi.
+Izoh: a va b sonlari tub sonlar va ular n dan kichik bo`ladi.
+"""
+# n = int(input(" n sonini kiriting:\n"))
+# a = int(input(" a tub sonini kiriting: \n"))
+# b = int(input(" b tub sonini kiriting\n"))
+# if a>b:
+#     i=a
+# else:
+#     i=b
+# bulinmaydiganlar = 0
+# while i < n:
+#     if not i%a==0 and not i%b==0:
+#         bulinmaydiganlar += 1
+#         print(i)
+#     i += 1
+# print(bulinmaydiganlar)
+
+
+"""while tsikli yordamida mukammal sonlar ro`yxatini yarating. Mukammal sonlar 
+– o`zidan tashqari barcha bo`luvchilari yig`indisiga teng bo`lgan sonlardir. Misol uchun:
+6 = 1 + 2 + 3
+"""
