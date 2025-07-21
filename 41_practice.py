@@ -158,3 +158,28 @@ Izoh: a va b sonlari tub sonlar va ular n dan kichik bo`ladi.
 # print(s)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+name = input("what is your name?: ")
+if name=="exit":
+    name = "thonny"
+print(name)
+
+
