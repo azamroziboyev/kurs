@@ -11,5 +11,3 @@ yosh = int(input("How old are you: "))
 calc_old(ism, yosh)
 
 
-
-

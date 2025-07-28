@@ -176,10 +176,8 @@ Izoh: a va b sonlari tub sonlar va ular n dan kichik bo`ladi.
 
 
 
-
-name = input("what is your name?: ")
-if name=="exit":
-    name = "thonny"
-print(name)
+from itertools import islice
+sl = islice("123456", 2)
+print(list(sl))
 
 
